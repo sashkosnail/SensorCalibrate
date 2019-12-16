@@ -1,0 +1,50 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>17.0</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>6</NumElts>
+<DAQChannel>
+<Name>Sensor Channels</Name>
+<Val>cDAQUSB/ai18:20</Val>
+</DAQChannel>
+<DBL>
+<Name>Max Input</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Min Input</Name>
+<Val>-10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sample Rate</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>DAQmx Task</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<DAQChannel>
+<Name>Reference Channels</Name>
+<Val>cDAQUSB/ai21:23</Val>
+</DAQChannel>
+</Cluster>
+<DBL>
+<Name>Ga</Name>
+<Val>0.10430000000000</Val>
+</DBL>
+<DBL>
+<Name>Gv</Name>
+<Val>20.00000000000000</Val>
+</DBL>
+<String>
+<Name>ExportPath</Name>
+<Val></Val>
+</String>
+</Cluster>
+</LVData>
